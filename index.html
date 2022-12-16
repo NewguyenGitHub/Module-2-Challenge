@@ -5,111 +5,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Michael Nguyen Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav -->
+  <!-- Header -->
   <header>
-    <h1>Lernantino</h1>
     <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-      <!-- Link this to your resume! -->
-      <a href="#">Resume</a>
+      <a href="#aboutme">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div>
-        <p>
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
-          plaid
-          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
-          Carles you
-          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
-          paleo
-          scenester
-        </p>
-        <p>
-          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
-          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
-          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
-          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
-          heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
+  <main>
+    <!-- Hero-->
+    <section class="hero">
+      <h1 class="text-center">MICHAEL NGUYEN</h1>
+      <h2 class="text-center">New guy learning to master the ways of software</h2>
+      <img src="./assets/images/Me.jpg">
+    </section>
+    
+    <!-- About Me Section-->
+    <section class="aboutme" id="aboutme">
+      <h2 class="text-center">Ollo, I'm Michael.</h2>
+      <p>
+        Being a new guy in the world of software, 
+        I am excited to have the opportunity to have my creativity 
+        and logical brain come together to build user friendly 
+        and aesthically pleasing interfaces. My interest in software development 
+        began back in 2014 when I had slight stings of regret for not originally
+        majoring in that field. I have had many opportunities to use code through the years,
+        but I am ready to tack on the title of Software Developer. Right there next to Tennis Coach, and Dog Dad.
+        
+      </p>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="flex-container">
-
-        <a href="#" class="flex-item surf-report">
+    <!-- Projects -->
+    <section class="project-container">
+      <!-- Featured Project -->
+      <section class="feature" id="projects">
+        <h1>Projects</h1>
+        <a href="https://www.createled.com/">
           <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-        
-        <a href="#" class="flex-item led-wall">
-          <div>
-            <h3>LED Wall</h3>
+            <h2>LED Wall</h2>
             <span>Node/IoT</span>
           </div>
+          <img src="./assets/images/project-1.jpg" alt="Project 1">
         </a>
-        <a href="#" class="flex-item react-calc">
+      </section>
+      
+      <!-- Other Projects -->
+      <section class="project">
+        <a href="https://www.herobyhg.com/">
           <div>
-            <h3>Calculator</h3>
-            <span>React/JavaScript/CSS</span>
-          </div>
-        </a>
-
-        <a href="#" class="flex-item pastel-puzzles">
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-
-    
-        <a href="#" class="flex-item run-buddy">
-          <div>
-            <h3>Run Buddy</h3>
+            <h2>Hero</h2>
             <span>HTML/CSS</span>
           </div>
+          <img src="./assets/images/project-2.jpg" alt="Project 2">
         </a>
-
-      </div>
+        <a href="https://www.zazzle.com/pastel+color+puzzles">
+          <div>
+            <h2>Pastel Puzzles</h2>
+            <span>MERN Stack</span>
+          </div>
+          <img src="./assets/images/project-3.jpg" alt="Project 3">
+        </a>
+        <a href="https://www.tate.org.uk/art/art-terms/abstract-art">
+          <div>
+            <h2>Abstract</h2>
+            <span>MERN Stack</span>
+          </div>
+          <img src="./assets/images/project-4.jpg" alt="Project 4">
+        </a>
+      </section>
     </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <address>
-          <a href="tel:+15555555555">555.555.5555</a>
-          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
-          <a href="#">GitHub</a>
-          <a href="#">Twitter</a>
-          <a href="#">Spotify</a>
-        </address>
-      </div>
+    
+    <!-- Contact Me Section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch</h2>
+      <address>
+        <a href="mailto:mnguyen8.mn@gmail.com"><img src="./assets/images/Email.png" alt="Email Icon"></a>
+        <a href="https://www.linkedin.com/in/michael-nguyen-40803a70/"><img src="./assets/images/LinkedIn.png" alt="LinkedIn Icon"></a>
+        <a href="https://github.com/NewguyenGitHub"><img src="./assets/images/GitHub.png" alt="GitHub Icon"></a>
+      </address>
     </section>
   </main>
-</body>
 
+  <!-- Footer -->
+  <footer class="text-center">
+    <h4>Developed & designed by Newguyen Co.</h4>
+    <h5>Special thanks to my girl Janna Ribeira ❤️️</h5>
+  </footer>
+
+</body>
 </html>
